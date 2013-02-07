@@ -521,7 +521,7 @@ public class GLLayer implements GLSurfaceView.Renderer {
         
         // Draw a plane
         Matrix.setIdentityM(mModelMatrix, 0);
-        Matrix.translateM(mModelMatrix, 0, 0.0f, -2.0f, -5.0f);
+        Matrix.translateM(mModelMatrix, 0, 0.0f, -2.0f, -2.0f);
         Matrix.scaleM(mModelMatrix, 0, 25.0f, 1.0f, 25.0f);
         Matrix.rotateM(mModelMatrix, 0, slowAngleInDegrees, 0.0f, 1.0f, 0.0f);
         
